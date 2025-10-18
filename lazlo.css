@@ -13,7 +13,7 @@ body {
 .container {
   height: 100%;
   width: 100%;
-  background-image: url(https://cdn.pixabay.com/photo/2017/03/18/12/24/cafe-2153865_640.jpg);
+  background-image: url(images/cafe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;

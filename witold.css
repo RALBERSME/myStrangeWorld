@@ -6,7 +6,7 @@
 body {
   height: 100vh;
   overflow: hidden;
-  background-image: url(https://cdn.pixabay.com/animation/2023/07/04/01/53/01-53-43-851_512.gif);
+  background-image: url(images/wall.gif);
 }
 .container {
   margin: 1.5%;

@@ -10,6 +10,6 @@ function getSolution() {
   document.getElementById("getSolutionBtn").style.display = "none";
   document.getElementById("next").classList.remove("hide");
   document.querySelector("body").style.backgroundImage =
-    "url(https://cdn.pixabay.com/photo/2018/08/24/22/08/landscape-3628993_640.jpg)";
+    "url(images/landscape.jpg)";
   document.querySelector(".story").style.fontSize = "1.3rem";
 }

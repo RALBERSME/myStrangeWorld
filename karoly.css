@@ -6,7 +6,7 @@
 body {
   height: 100vh;
   background-color: beige;
-  background-image: url(https://cdn.pixabay.com/animation/2022/10/01/15/15/15-15-43-312_512.gif);
+  background-image: url(images/yellow.gif);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,7 +14,7 @@ body {
   margin: 5%;
 }
 canvas {
-  background-image: url(https://cdn.pixabay.com/photo/2021/07/30/00/56/coliseum-6508383_640.jpg);
+  background-image: url(images/collosseum.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80% 50%;
