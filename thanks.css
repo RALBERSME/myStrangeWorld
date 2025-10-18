@@ -64,6 +64,9 @@ ul {
 .box {
   margin-top: 50px;
 }
+.box:hover {
+  background-color: rgb(181, 180, 180);
+}
 .copyright {
   position: absolute;
   top: 50%;
