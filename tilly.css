@@ -24,7 +24,9 @@ p {
 }
 a:hover,
 p:hover {
-  color: orangered;
+  padding: 4px;
+  color: white;
+  background-color: orangered;
 }
 .videos {
   position: absolute;
