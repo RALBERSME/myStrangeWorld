@@ -123,7 +123,9 @@ body {
   background-color: black;
   border-radius: 50px;
 }
-
+#getSolutionBtn:hover {
+  color: rgb(243, 243, 145);
+}
 .head {
   position: relative;
   top: -75px;
