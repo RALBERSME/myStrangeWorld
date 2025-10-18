@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.background img {
+  width: 100vw;
+}
+
+.ground img {
+  height: 25vh;
+  width: 200vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  animation: moving 6s linear infinite 1s;
+}
+
+.sceneImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  width: 225vw;
+  z-index: 15;
+  animation: moving 9s linear infinite 1s;
+}
+.sceneImage img {
+  width: 100vw;
+  height: 80vh;
+}
+
+.smallBike {
+  position: absolute;
+  height: 200px;
+  left: 40vw;
+  bottom: 5.5vh;
+  z-index: 30;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bike {
+  height: 110px;
+  position: absolute;
+  left: 65vw;
+  bottom: 25vh;
+  z-index: 60;
+  animation: moving 25s linear infinite 2s;
+}
+
+.bike img {
+  width: 35vw;
+  height: 50vh;
+}
+
+.sheep {
+  height: 110px;
+  position: absolute;
+  left: 100.5vw;
+  bottom: 27.5vh;
+  z-index: 50;
+  animation: moving 15s linear infinite 3s;
+}
+
+.sheep img {
+  width: 18vw;
+  height: 36vh;
+}
+
+.bigBike {
+  height: 110px;
+  position: absolute;
+  left: 70vw;
+  bottom: 53.5vh;
+  z-index: 15;
+  animation: moving 8s linear infinite 3s;
+}
+
+.bigBike img {
+  width: 55vw;
+  height: 60vh;
+}
+
+.bigSheep {
+  height: 110px;
+  position: absolute;
+  left: 100vw;
+  bottom: 37.5vh;
+  z-index: 30;
+  animation: moving 30s linear infinite 3s;
+}
+
+.bigSheep img {
+  width: 25vw;
+  height: 40vh;
+}
+
+@keyframes moving {
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+.buttons {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  margin-right: 100px;
+  text-align: center;
+  display: flex;
+  gap: 50px;
+  z-index: 100;
+}
+.btn {
+  background-color: rgb(233, 246, 219);
+  border: none;
+  height: 120%;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-size: 2.5rem;
+}
+.btn1 {
+  border: 4px solid #04aa6d;
+  color: #04aa6d;
+}
+.btn2 {
+  border: 4px solid #008cba;
+  color: #008cba;
+}
+.btn1:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: #008cba;
+  color: white;
+}

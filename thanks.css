@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(https://cdn.pixabay.com/photo/2022/10/31/18/55/sympathy-card-7560569_640.jpg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 60% 50%;
+  background-color: #dddcdc;
+}
+.container {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.marquee {
+  margin-top: 17.8%;
+  overflow: hidden;
+  user-select: none;
+  display: flex;
+  gap: 2px;
+}
+
+ul {
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  animation: marquee 8s linear infinite;
+}
+
+.text {
+  background: linear-gradient(to right, #a2a2a2, #ffffff, #212121);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 400;
+  font-size: 25ch;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(calc(-100% - 4px));
+  }
+}
+
+.survey {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 80vh;
+  padding: 1%;
+}
+.box {
+  margin-top: 50px;
+}
+.copyright {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: rotate(90deg);
+  color: white;
+  font-size: 1.75rem;
+  width: 800px;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(https://cdn.pixabay.com/animation/2023/07/04/01/53/01-53-43-851_512.gif);
+}
+.container {
+  margin: 1.5%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2%;
+  color: rgb(253, 250, 250);
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+
+.middle {
+  padding: 5%;
+  font-size: 1.2rem;
+}
+h3 {
+  width: 90%;
+  padding-left: 20%;
+}
+.imagesRight {
+  display: flex;
+}
+#next {
+  color: rgb(250, 182, 57);
+}
+#next:hover {
+  color: rgb(246, 249, 153);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(247, 249, 189);
+}
+a:hover {
+  color: rgb(250, 182, 57);
+}

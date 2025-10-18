@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.container {
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  background: url("https://cdn.pixabay.com/photo/2025/10/11/18/31/cold-9888476_640.png"),
+    linear-gradient(to right, #999, red), linear-gradient(to right, blue, green),
+    linear-gradient(to right, black, rgb(126, 166, 241));
+  background-position: center left;
+  background-size: 100%;
+  background-size: cover;
+  background-blend-mode: darken, screen, hard-light, exclusion;
+  margin: 0;
+  padding: 0;
+  animation: flap 12s infinite;
+  animation-direction: alternate;
+  box-shadow: inset 0 0 0 30px white;
+  box-sizing: border-box;
+}
+@keyframes flap {
+  0%,
+  100% {
+    box-shadow: inset 0 0 0 30px white;
+  }
+  40% {
+    box-shadow: inset 0 0 0 30px rgb(67, 66, 66);
+  }
+  80% {
+    box-shadow: inset 0 0 0 30px white;
+  }
+}
+
+.information {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 25%;
+  font-size: 1.3rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  color: rgb(230, 245, 162);
+}

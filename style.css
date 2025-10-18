@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Playwrite+AU+TAS:wght@100..400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: radial-gradient(
+    rgb(254, 255, 255),
+    rgb(78, 144, 164),
+    rgb(53, 88, 98),
+    rgb(47, 53, 55)
+  );
+  font-family: "Licorice", cursive;
+  font-size: 2.5rem;
+}
+p {
+  font-weight: 550;
+  color: beige;
+}
+a {
+  text-decoration: none;
+  color: beige;
+}
+a:hover {
+  color: rgb(217, 217, 107);
+}
+.container {
+  margin: 3.5%;
+}
+.intro {
+  color: white;
+  margin-bottom: 1.5%;
+  text-align: center;
+}
+.auge {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url();
+  z-index: -2;
+}
+
+.center {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 3.5%;
+  z-index: 1;
+}
+.back {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  height: 0;
+  animation: animateEye 3s linear infinite;
+}
+
+@keyframes animateEye {
+  from {
+    height: 0;
+  }
+  to {
+    height: 160%;
+    padding-left: 20%;
+    padding-top: 25%;
+  }
+}

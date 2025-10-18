@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #b58863;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/18/12/24/cafe-2153865_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-left: 25px;
+}
+.left {
+  color: white;
+  font-size: 1rem;
+  padding: 15px;
+}
+.left a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(245, 202, 202);
+}
+.left a:hover {
+  color: orangered;
+}
+#chess {
+  display: grid;
+  padding-left: 15px;
+  padding-top: 15px;
+  grid-template-columns: repeat(8, 80px);
+  grid-template-rows: repeat(8, 80px);
+  border: 5px solid orangered;
+  outline: 5px solid #fff;
+  outline-offset: -10px;
+  color: rgb(48, 48, 207);
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  font-size: 40px;
+  cursor: grab;
+  border-radius: 5px;
+}
+
+.white {
+  background-color: rgb(243, 238, 228);
+  border: 2px solid black;
+}
+
+.black {
+  background-color: rgb(242, 234, 161);
+  border: 2px solid black;
+}
+.middle {
+  padding: 5%;
+  color: white;
+  font-size: 1.5rem;
+  padding-right: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
