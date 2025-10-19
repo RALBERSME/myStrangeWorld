@@ -9,5 +9,5 @@ function goOn() {
 
   setTimeout(() => {
     window.location = "lata1.html";
-  }, 7500);
+  }, 8500);
 }

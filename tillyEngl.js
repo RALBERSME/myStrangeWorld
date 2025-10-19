@@ -8,5 +8,5 @@ function goOn() {
   wave3.style.visibility = "visible";
   setTimeout(() => {
     window.location = "lata1Engl.html";
-  }, 7500);
+  }, 8500);
 }
