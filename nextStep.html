@@ -7,67 +7,113 @@
     <title>Cards</title>
   </head>
   <body>
-    <div class="container">
-      <div class="box">
-        <div class="card" onclick="window.location.href='tilly.html'">
-          <p class="cardtext">Tilly Smith <br />die klug agierende Schülerin</p>
+    <div class="wrapper">
+      <div class="cards">
+        <div class="cardRow">
+          <div></div>
+          <div class="container">
+            <img
+              onclick="window.location.href='tilly.html'"
+              width="280"
+              height="280"
+              src="images/tsunami.jpg"
+            />
+            <div class="caption" onclick="window.location.href='tilly.html'">
+              <h1>Tilly Smith</h1>
+              <p>die klug agierende Schülerin</p>
+            </div>
+          </div>
 
-          <video src="images/ship.mp4" autoplay muted loop poster />
+          <div class="container">
+            <img
+              onclick="window.location.href='karoly.html'"
+              width="280"
+              height="280"
+              src="images/pistol.jpg"
+            />
+            <div class="caption" onclick="window.location.href='karoly.html'">
+              <h1>Károly Takács</h1>
+              <p>der Meister mit der Pistole</p>
+            </div>
+          </div>
         </div>
-        <div class="card" onclick="window.location.href='karoly.html'">
-          <p class="cardtext">
-            Károly Takács <br />
-            der Meister mit der Pistole
-          </p>
+        <div class="cardRow">
+          <div class="container">
+            <img
+              onclick="window.location.href='cliff.html'"
+              width="280"
+              height="280"
+              src="images/sheep.jpg"
+              alt=""
+            />
+            <div class="caption" onclick="window.location.href='cliff.html'">
+              <h1>Cliff Young</h1>
+              <p>ein cooler australischer Farmer</p>
+            </div>
+          </div>
+          <div class="container">
+            <img
+              onclick="window.location.href='ole.html'"
+              width="280"
+              height="280"
+              src="images/cycling-race.jpg"
+            />
+            <div class="caption" onclick="window.location.href='ole.html'">
+              <h1>Sven Müller</h1>
+              <p>Die Theorie des Gelingens</p>
+            </div>
+          </div>
 
-          <video src="images/shooting.mp4" autoplay muted loop poster />
+          <div class="container">
+            <img
+              onclick="window.location.href='lata1.html'"
+              width="280"
+              height="280"
+              src="images/womanIndia.jpg"
+            />
+            <div class="caption" onclick="window.location.href='lata1.html'">
+              <h1>Lata Kare</h1>
+              <p>eine couragierte Ehefrau</p>
+            </div>
+          </div>
         </div>
-        <div class="card" onclick="window.location.href='cliff.html'">
-          <p class="cardtext">
-            Cliff Young<br />
-            ein cooler australischer Farmer
-          </p>
-
-          <img class="video" src="images/motivation.gif" alt="" />
-        </div>
-        <div class="card" onclick="window.location.href='lata.html'">
-          <p class="cardtext">
-            Lata Bhagwan Kare<br />eine couragierte Ehefrau
-          </p>
-
-          <video src="images/doc.mp4" autoplay muted loop poster />
-        </div>
-        <div class="card" onclick="window.location.href='witold.html'">
-          <p class="cardtext">
-            Witold Pilecki <br />
-            er riskierte Kopf und Kragen
-          </p>
-          <img class="video" src="images/auschwitz.jpg" alt="" />
-        </div>
-        <div class="card" onclick="window.location.href='ole.html'">
-          <p class="cardtext">
-            Sven Ole Müller, Nicole Bauer & Team <br />Die Theorie des Gelingens
-          </p>
-
-          <video src="images/biken.mp4" autoplay muted loop poster />
-        </div>
-        <div class="card" onclick="window.location.href='lazlo.html'">
-          <p class="cardtext">
-            László Polgár <br />
-            ein außergewöhnlicher Pädagoge
-          </p>
-          <img class="video" src="images/chess.jpg" alt="" />
+        <div class="cardRow">
+          <div class="container">
+            <img
+              src="images/auschwitz.jpg"
+              alt=""
+              width="280"
+              height="280"
+              onclick="window.location.href='witold.html'"
+            />
+            <div class="caption" onclick="window.location.href='witold.html'">
+              <h1>Witold Pilecki</h1>
+              <p>er riskierte Kopf und Kragen</p>
+            </div>
+          </div>
+          <div class="container">
+            <img
+              src="images/chess.jpg"
+              alt=""
+              width="280"
+              height="280"
+              onclick="window.location.href='lazlo.html'"
+            />
+            <div class="caption" onclick="window.location.href='lazlo.html'">
+              <h1>László Polgár</h1>
+              <p>ein außergewöhnlicher Pädagoge</p>
+            </div>
+          </div>
+          <div></div>
         </div>
       </div>
-    </div>
-    <div class="instruction">
-      <marquee direction="up" scrollamount="4" height="100"
-        >Klicke auf die Karte,<br />
-        die Dich interessiert.</marquee
-      >
-    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="nextStep.js"></script>
+      <div class="instruction">
+        <marquee direction="down" width="300" height="820" behavior="alternate">
+          Hover links über ein Bild, das Dich interessiert<br />
+          und klicke dann auf die Karte, um die Geschichte zu erfahren.<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </marquee>
+      </div>
+    </div>
   </body>
 </html>
