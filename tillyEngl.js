@@ -1,4 +1,5 @@
 function goOn() {
+  document.getElementById("goOn").innerHTML = "Attention Tsunami is coming!";
   let wave1 = document.getElementById("video1");
   let wave2 = document.getElementById("video2");
   let wave3 = document.getElementById("video3");

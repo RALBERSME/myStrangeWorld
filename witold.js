@@ -6,5 +6,5 @@ function goNext() {
   document.querySelector(".link2").style.display = "none";
   setTimeout(() => {
     window.location = "karoly.html";
-  }, 5000);
+  }, 4500);
 }
