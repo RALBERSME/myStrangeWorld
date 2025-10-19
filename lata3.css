@@ -57,5 +57,46 @@ a {
   font-weight: bold;
 }
 a:hover {
-  color: rgb(7, 189, 56);
+  color: rgb(131, 201, 245);
+}
+
+#victory {
+  position: absolute;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  top: -300px;
+  left: 46%;
+  border: 10px dashed rgb(233, 80, 4);
+  box-shadow: 2px 2px 2px 2px rgb(99, 34, 2);
+  animation: showMedal 5s linear forwards;
+}
+@keyframes showMedal {
+  from {
+    top: -200px;
+    border: 10px dashed rgb(233, 80, 4);
+    box-shadow: 2px 2px 2px 2px rgb(99, 34, 2);
+  }
+  to {
+    top: 73%;
+    border: 7px dotted gold;
+    box-shadow: 2px 2px 2px 2px goldenrod;
+  }
+}
+#sun {
+  position: absolute;
+  width: 380px;
+  height: 320px;
+  top: 7.5%;
+  left: 7.5%;
+  transform: rotate(-25deg) scale(0);
+  animation: showSun 5s 1s ease-in-out forwards;
+}
+@keyframes showSun {
+  from {
+    transform: rotate(-25deg) scale(0);
+  }
+  to {
+    transform: rotate(-25deg) scale(1);
+  }
 }
