@@ -6,7 +6,7 @@
 }
 body {
   height: 100vh;
-  background-image: url(https://cdn.pixabay.com/photo/2013/07/13/12/38/man-160034_640.png);
+  background-image: url(images/man.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60% 50%;
